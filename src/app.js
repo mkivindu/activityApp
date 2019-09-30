@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./header";
-import Content from "./content";
+//import Content from "./content";
+import Welcome from "./welcome";
 
 class App extends Component {
   //state = {  }
@@ -9,10 +10,9 @@ class App extends Component {
       <div className="notificationsPaanel">
             <div clasName="panel">
                 <Header title="Timeline" />
-                <Header title="Profile" />
-                <Header title="Settings" />
-                <Header title="Chat" />
-                <Content/>
+                
+                {/*<Content/>*/}
+                <Welcome/>
                 
             </div>
         </div>
